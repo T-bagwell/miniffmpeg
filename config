@@ -1,0 +1,14 @@
+CFLAGS = -I. -Isrc/ -D_ISOC99_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_POSIX_C_SOURCE=200112 -D_XOPEN_SOURCE=600
+
+CFLAGS += -I/home/lq/multimedia/ffmpeg/compat/atomics/gcc
+CFLAGS += -DZLIB_CONST
+CFLAGS += -DHAVE_AV_CONFIG_H
+CFLAGS += -pthread
+CFLAGS += -g
+CFLAGS += -Wall
+CFLAGS += -O3
+CFLAGS += -DBUILDING_avformat -std=c11 -fomit-frame-pointer -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -Wwrite-strings -Wtype-limits -Wundef -Wmissing-prototypes -Wno-pointer-to-int-cast -Wstrict-prototypes -Wempty-body -Wno-parentheses -Wno-switch -Wno-format-zero-length -Wno-pointer-sign -fno-math-errno -fno-signed-zeros -fno-tree-vectorize -Werror=format-security -Werror=implicit-function-declaration -Werror=missing-prototypes -Werror=return-type -Werror=vla -Wformat -fdiagnostics-color=auto -Wno-maybe-uninitialized 
+
+
+
+LDFLAGS += -lz -lm -lva -lva-drm
