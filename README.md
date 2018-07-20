@@ -16,3 +16,13 @@ you can use git clone git://source.ffmpeg.org/ffmpeg.git, and find the commit in
     Fixes: 9350/clusterfuzz-testcase-minimized-ffmpeg_AV_CODEC_ID_DVDSUB_fuzzer-5746777750765568
     Found-by: continuous fuzzing process https://github.com/google/oss-fuzz/tree/master/projects/ffmpeg
     Signed-off-by: Michael Niedermayer <michael@niedermayer.cc>
+
+# Support OS
+CentOS Linux release 7.5.1804 (Core)   test passed
+
+# Support Hardware
+Intel(R) Core(TM) i5-3210M CPU @ 2.50GHz
+
+
+# Contact
+WeChat: ljk_3024
